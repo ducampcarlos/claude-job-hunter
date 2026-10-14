@@ -1,0 +1,10 @@
+# Personal data stays local. Only the *.example files are committed.
+profile/*.md
+!profile/*.example.md
+jobs/
+tracker.csv
+
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
